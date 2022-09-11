@@ -1,8 +1,9 @@
 name: Sync
 on:
-  push:
-    branches:
-      - main
+    push:
+      branches: production
+    pull_request:
+      branches: production
 
 jobs:
   sync-branches:
