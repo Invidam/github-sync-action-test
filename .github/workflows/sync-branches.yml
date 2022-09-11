@@ -1,6 +1,8 @@
 name: Sync
 on:
   pull_request:
+    types:
+      - closed
     branches:
       - production
 
