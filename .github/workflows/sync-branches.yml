@@ -1,8 +1,8 @@
 name: Sync
 on:
-    push:
-      branches: production
-
+  push:
+    branches:
+      - production
 jobs:
   sync-branches:
     runs-on: ubuntu-latest
