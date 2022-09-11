@@ -1,9 +1,11 @@
 name: Sync
 on:
-    push:
+    merge_group:
       branches: production
-    pull_request:
-      branches: production
+#     push:
+#       branches: production
+#     pull_request:
+#       branches: production
 
 jobs:
   sync-branches:
